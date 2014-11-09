@@ -30,6 +30,7 @@ def get_reactions_from_reaction_page(url):
 def main():
   lines = []
   article_url = ''
+  #TODO to be removed, only here for testing purposes
   if len(sys.argv) == 1:
     article_url = 'http://www.hln.be/hln/nl/957/Binnenland/article/detail/2114607/2014/11/07/Abdeslam-heeft-zijn-nieuwe-auto-via-crowdfunding-al-vast.dhtml?show=react'
   else:
